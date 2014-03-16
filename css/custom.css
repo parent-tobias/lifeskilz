@@ -1,21 +1,29 @@
 /**********************************MENU BAR********************************************/
-.navbar-wrapper .container {
-	height: 68px;
-	/*background-image: url('../img/pinkPattern.png');
-	background-repeat: repeat-x; */
+.navbar {
+	position: relative;
+	top: 50px;
+	background-image: url('../img/pinkPattern.png');
+	background-repeat: repeat-x; 
 }
-/*LIFE SKILZ LOGO in Navbar*/
-.navbar-header{
-	padding-top: 10px;
+.navbar-wrapper .container {
+	/*background image will not show up error*/
+	height: 68px;
 	
 }
+/*LIFE SKILZ LOGO in Navbar*/
+/*moved the lifeskil down 10px*/
+.navbar-header{
+	padding-top: 10px;	
+}
+/*changed the font of Lifeskilz*/
 .navbar-brand{
 	font-size: 25px;
 }
+/*changed menu items and moved them center and over left as far 
+as i could*/
 .navbar-collapse {
 	font-size: 16px;
 	padding-top: 10px;
 	padding-left: 500px;
 }
-.nav 
 

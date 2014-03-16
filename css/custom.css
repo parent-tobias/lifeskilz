@@ -30,4 +30,18 @@ as i could*/
 #myCarousel{
 	position: relative;
 	top: 190px;
+	height: 625px;
+}
+.carousel-inner, .item, .carousel .item {
+	height: 625px;
+}
+.carousel-inner > .item > img {
+	height: 625px;
+}
+
+
+.navbar-wrapper{
+	background-color: #535353;
+	margin: 0px;
+	height: 130px;
 }

@@ -1,4 +1,7 @@
 /**********************************MENU BAR********************************************/
+html {
+	margin-bottom: 0px;
+}
 .navbar {
 	position: relative;
 	top: 120px;
@@ -26,6 +29,13 @@ as i could*/
 	padding-top: 10px;
 	padding-left: 500px;
 }
+
+/*The gray portion at the top*/
+.navbar-wrapper{
+	background-color: #535353;
+	margin: 0px;
+	height: 130px;
+}
 /**********************************CAROUSEL********************************************/
 #myCarousel{
 	position: relative;
@@ -39,9 +49,3 @@ as i could*/
 	height: 625px;
 }
 
-
-.navbar-wrapper{
-	background-color: #535353;
-	margin: 0px;
-	height: 130px;
-}

@@ -1,9 +1,9 @@
 /**********************************MENU BAR********************************************/
 .navbar {
 	position: relative;
-	top: 50px;
+	top: 120px;
 	background-image: url('../img/pinkPattern.png');
-	background-repeat: repeat-x; 
+	background-repeat: repeat-x 0 100%; 
 }
 .navbar-wrapper .container {
 	/*background image will not show up error*/
@@ -26,4 +26,8 @@ as i could*/
 	padding-top: 10px;
 	padding-left: 500px;
 }
-
+/**********************************CAROUSEL********************************************/
+#myCarousel{
+	position: relative;
+	top: 190px;
+}

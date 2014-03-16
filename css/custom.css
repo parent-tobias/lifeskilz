@@ -1,0 +1,21 @@
+/**********************************MENU BAR********************************************/
+.navbar-wrapper .container {
+	height: 68px;
+	/*background-image: url('../img/pinkPattern.png');
+	background-repeat: repeat-x; */
+}
+/*LIFE SKILZ LOGO in Navbar*/
+.navbar-header{
+	padding-top: 10px;
+	
+}
+.navbar-brand{
+	font-size: 25px;
+}
+.navbar-collapse {
+	font-size: 16px;
+	padding-top: 10px;
+	padding-left: 500px;
+}
+.nav 
+

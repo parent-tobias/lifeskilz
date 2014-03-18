@@ -48,4 +48,6 @@ as i could*/
 .carousel-inner > .item > img {
 	height: 625px;
 }
-
+.carousel {
+	margin-bottom: 0px;
+}

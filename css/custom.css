@@ -7,11 +7,13 @@ html {
 	top: 120px;
 	background-image: url('../img/pinkPattern.png');
 	background-repeat: repeat-x 0 100%; 
-	height: 72px;
+	height: 70px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid gray;
 }
 .navbar-wrapper .container {
-	/*background image will not show up error*/
-	height: 69px;
+	
+	height: 72px;
 	
 }
 /*LIFE SKILZ LOGO in Navbar*/
@@ -41,14 +43,36 @@ as i could*/
 #myCarousel{
 	position: relative;
 	top: 190px;
-	height: 625px;
+	min-height: 660px;
+	max-height: 700px;
+    width: auto;
 }
+
+/*How to make this responsive look better
+When I fix in chrome it does not in google*/
 .carousel-inner, .item, .carousel .item {
-	height: 625px;
+	min-height: 660px;
+	max-height: 700px;
+    width: auto;
 }
 .carousel-inner > .item > img {
-	height: 625px;
+	min-height: 660px;
+	max-height: 700px;
+    width: auto;
+
+	/*height: 625px;*/
 }
 .carousel {
 	margin-bottom: 0px;
+}
+
+
+.barbottom{
+	background-image: url('../img/pinkPattern.png');
+	width: auto;
+	height: 100px;
+	position: relative;
+	top: 187px;
+	background-repeat: repeat-x 0 100%;
+	border-bottom: 4px solid gray;
 }

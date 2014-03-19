@@ -30,7 +30,6 @@ as i could*/
 .navbar-collapse {
 	font-size: 16px;
 	padding-top: 10px;
-	padding-left: 500px;
 }
 
 /*The gray portion at the top*/
@@ -43,21 +42,21 @@ as i could*/
 #myCarousel{
 	position: relative;
 	top: 190px;
-	min-height: 660px;
-	max-height: 700px;
+	min-height: 625px;
+	max-height: 1400px;
     width: auto;
 }
 
 /*How to make this responsive look better
 When I fix in chrome it does not in google*/
 .carousel-inner, .item, .carousel .item {
-	min-height: 660px;
-	max-height: 700px;
+	min-height: 625px;
+	max-height: 1400px;
     width: auto;
 }
 .carousel-inner > .item > img {
-	min-height: 660px;
-	max-height: 700px;
+	min-height: 625px;
+	max-height: 1400px;
     width: auto;
 
 	/*height: 625px;*/

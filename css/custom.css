@@ -67,12 +67,32 @@ When I fix in chrome it does not in google*/
 }
 
 
+
+
+
+
 .barbottom{
 	background-image: url('../img/pinkPattern.png');
 	width: auto;
 	height: 100px;
 	position: relative;
-	top: 187px;
+	top: 162px;
 	background-repeat: repeat-x 0 100%;
 	border-bottom: 4px solid gray;
+}
+
+.mack1{
+	position: relative;
+	top: 350px;
+	background-repeat: no-repeat;
+	
+}
+
+#aboutEdMack{
+	margin: .5em;
+	padding-top: 21px;
+	text-align: center;
+	font-size: 55px;
+	color: black;
+	/*border: 3px solid white;*/
 }

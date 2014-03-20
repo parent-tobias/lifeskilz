@@ -2,6 +2,11 @@
 html {
 	margin-bottom: 0px;
 }
+body {
+	font-size: 100%;
+    line-height: 1.6875;
+}
+
 .navbar {
 	position: relative;
 	top: 120px;
@@ -89,9 +94,9 @@ When I fix in chrome it does not in google*/
 
 #aboutEdMack{
 	margin: .5em;
-	padding-top: 21px;
+	padding-top: 30px;
 	text-align: center;
-	font-size: 55px;
+	font-size: 425%;
 	color: black;
 	/*border: 3px solid white;*/
 }

@@ -5,6 +5,7 @@ html {
 body {
 	font-size: 100%;
     line-height: 1.6875;
+    padding-bottom: 0px;
 }
 
 .navbar {

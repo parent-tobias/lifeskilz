@@ -92,7 +92,7 @@ When I fix in chrome it does not in google*/
 	padding-top: 21px;
 	text-align: center;
 	font-size: 55px;
-	color: #999;
+	color: black;
 	/*border: 3px solid white;*/
 }
 
@@ -109,6 +109,7 @@ When I fix in chrome it does not in google*/
 	top: 250px;
 	font-size: 25px;
 	line-height: 31px;
+	word-wrap: normal;
 }
 .p1-2 {
 	font-style: italic;

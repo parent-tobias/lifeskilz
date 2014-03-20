@@ -48,34 +48,8 @@ as i could*/
 	position: relative;
 	top: 190px;
     width: auto;
-    margin-bottom: 0px;
-}
-
-
-/*How to make this responsive look better
-When I fix in chrome it does not in google*/
-.carousel-inner, .item, .carousel .item {
-    width: auto;
-}
-.carousel-inner > .item > img {
-    width: auto;
-}
-.carousel {
-	margin-bottom: 0px;
-}
-
-.people {
-	width: auto;
-	height: auto;
-}
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: auto;
-}
-
+    margin: 0px;
+ }
 
 
 /**********************ABOUT ME MENU BAR********************************/

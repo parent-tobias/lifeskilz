@@ -44,17 +44,17 @@ as i could*/
 	height: 130px;
 }
 /**********************************CAROUSEL********************************************/
-#myCarousel{
+/*#myCarousel{
 	position: relative;
 	top: 190px;
 	min-height: 625px;
 	max-height: 1400px;
-    width: auto;
+    width: auto;*/
 }
 
 /*How to make this responsive look better
 When I fix in chrome it does not in google*/
-.carousel-inner, .item, .carousel .item {
+/*.carousel-inner, .item, .carousel .item {
 	min-height: 625px;
 	max-height: 1400px;
     width: auto;
@@ -63,12 +63,10 @@ When I fix in chrome it does not in google*/
 	min-height: 625px;
 	max-height: 1400px;
     width: auto;
-
-	/*height: 625px;*/
 }
 .carousel {
 	margin-bottom: 0px;
-}
+}*/
 
 
 

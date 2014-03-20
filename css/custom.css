@@ -95,6 +95,15 @@ When I fix in chrome it does not in google*/
 	color: black;
 	/*border: 3px solid white;*/
 }
+
+#moreme {
+	position: relative;
+	top: 230px;
+	font-style: bolder;
+	color: black;
+	text-decoration: underline;
+}
+
 .p1-1 {
 	position: relative;
 	top: 250px;
@@ -108,4 +117,19 @@ When I fix in chrome it does not in google*/
 	padding-top: 5px;
 	font-size: 25px;
 	line-height: 31px;
+}
+.p1-3 {
+	padding-bottom: 5px;
+	position: relative;
+	top: 250px;
+	font-size: 25px;
+	line-height: 31px;
+}
+.footer{
+	position: relative;
+	top: 300px;
+	margin-top: 100px;
+	background-color: #535353;
+	height: 400px;
+	width: auto;
 }

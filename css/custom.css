@@ -45,12 +45,31 @@ as i could*/
 }
 /**********************************CAROUSEL********************************************/
 #myCarousel{
-	position: relative;
-	top: 190px;
-    width: auto;
+	/*position: relative;
+	top: 190px;*/
     margin: 0px;
+    position: absolute;
+    top: 190px;
+    width: 100%;
+    min-width: 100%;
+    min-height: 500px; /* <--- Change this line to min-height */
  }
 
+ .carousel-inner > .item > img {
+   position: absolute;
+   left: 0;
+   min-width: 100%;
+   min-height: 500px; /* <--- Change this line to min-height */
+ }
+
+
+.carousel-inner {
+	height: 100%;
+}
+
+.carousel1 {
+	height: 100%;
+}
 
 /**********************ABOUT ME MENU BAR********************************/
 

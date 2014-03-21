@@ -47,7 +47,7 @@ as i could*/
 #myCarousel{
     position: absolute;
     top: 116px;
-    min-height: 800px;
+    min-height: 1000px;
     max-height: 1300px;
     width: 100%;
  }
@@ -60,17 +60,17 @@ as i could*/
 
 
 .carousel-inner {
-	min-height: 800px;
+	min-height: 1000px;
     max-height: 1300px;
 }
 
 #couple2 {
-	min-height: 800px;
+	min-height: 1000px;
     max-height: 1300px;
 }
 .carousel-caption {
 	position: absolute;
-	top: 500px;
+	top: 550px;
 }
 /**********************ABOUT ME MENU BAR********************************/
 

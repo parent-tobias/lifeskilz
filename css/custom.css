@@ -231,7 +231,7 @@ as i could*/
 .commandLink {
 	color: black;
 }
-
+/*************************************FOOTER******************************************/
 .footer{
 	position: relative;
 	top: 300px;
@@ -240,3 +240,30 @@ as i could*/
 	height: 400px;
 	width: auto;
 }
+.contact {
+	position: absolute;
+	top: 20px;
+	left: 100px;
+	font-size: 16px;
+	color: white;
+}
+.contact ul {
+	list-style-type: none;
+}
+#contactMe {
+	text-decoration: underline;
+}
+.followMe {
+	position: absolute;
+	top: 20px;
+	left: 550px;
+	font-size: 16px;
+	color: white;
+}
+#socailMedia {
+	text-decoration: underline;
+}
+ul {
+	list-style-type: none;
+}
+	

@@ -63,8 +63,8 @@
                   </ul>
                 </li>
                 <li><a href="lifeskilz.html">LIFE SKILZ</a></li>
-                <li><a href="command.html">COMMAND PRINCPLES</a></li>
-                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="#">COMMAND PRINCPLES</a></li>
+                <li><a href="#">SERVICES</a></li>
 
               </ul>
             </div>
@@ -110,18 +110,18 @@
       and protection.</p>
     </section>
     <section id="no-gain-without-pain" class="command-principle-detail">
-      <h2>3. Taking responsibility</h2>
-      <p>Realizing I am accountable to God for every thought, word, action, and motive.</p>
-    </section>
-    <section id="understanding-stewardship" class="command-principle-detail">
-      <h2>4. Knowing there is no gain without pain</h2>
+       <h2>4. Knowing there is no gain without pain</h2>
       <p>Allowing the hurts from offenders to reveal “blind spots” in my own life, and then
       seeing how I can benefit their lives.</p>
     </section>
-    <section id="taking-responsibility" class="command-principle-detail">
+    <section id="understanding-stewardship" class="command-principle-detail">
       <h2>5. Understanding stewardship</h2>
       <p>Understanding that everything I have has been entrusted to me by God, and wisely
-      using it for His purposes.</p> 
+      using it for His purposes.</p>
+    </section>
+    <section id="taking-responsibility" class="command-principle-detail">
+      <h2>3. Taking responsibility</h2>
+      <p>Realizing I am accountable to God for every thought, word, action, and motive.</p>
     </section>
     <section id="dominating-environment" class="command-principle-detail">
       <h2>6. Domination of your environment.</h2>
@@ -164,38 +164,17 @@
   </article>
 </div><!-- /.container -->
 
-         <footer class="footer">
-      <div class="contact">
-        <ul>
-          <p id="contactMe">Contact Me</p>
-          <li>Call: 404-274-1051</li>
-          <li>Email: info@lifeskilzwithedmack.com</li>
-        </ul>
-       </div>
-      <div class="followMe">
-        <p id="socailMedia">Follow Me</p>
-          <ul>
-            <li>Facebook</li>
-            <li>Twitter</li>
-            <li>LinkedIn</li>
-            <li>Instagram</li>
-          </ul>
-      </div>
-      <div class="legalStuff">
-        <p id="legalInfo">Legal Info</p>
-        <p>Life Skilz With Ed Mack</br>
-        Ed Mack Enterprises</br>
-        P.O Box 1124</br>
-        Smyrna Ga 30081</br>
-        </p>
+     <footer class="footer">
+      <div></div>
+    </footer>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/holder/2.3.1/holder.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/ui-darkness/jquery-ui.css">
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="css/commandprincples/jquery-ui-1.10.4.custom.css">
     
     <script type="text/javascript">
     $(function(){
@@ -234,9 +213,10 @@
         });
         
         // Now, I also want each LI to listen for a click, and to pop the dialog element up, properly populated.
-        $("#command-principles-list").on("click", "li", function(){
+        $("#command-principles-list").on("click", "li", function(){ 
           // First, we need to get the relevant LI that has been clicked, and get its data-target attribute
           var myCPDetail = $("#"+ $(this).find("a").data("target") );
+          console.log(myCPDetail);
           // Now, if this is the last LI, we want 'Next' to point back to the FIRST element...
           if ($(this).is($(this).parent().find("li:last-child") ) ) {
 

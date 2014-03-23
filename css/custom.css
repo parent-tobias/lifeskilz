@@ -100,7 +100,13 @@ as i could*/
 	color: black;
 	/*border: 3px solid white;*/
 }
-
+.commandHeader{
+	margin: .5em;
+	padding-top: 14px;
+	text-align: center;
+	font-size: 325%;
+	color: black;
+}
 #moreme {
 	position: relative;
 	top: 230px;
@@ -169,8 +175,47 @@ as i could*/
 	line-height: 40px;
 	font-style: bolder;
 }
-
-
+.p2-6 {
+	position: relative;
+	top: 250px;
+	font-size: 28px;
+	line-height: 31px;
+	font-style: bolder;
+}
+.p3-1 {
+	position: relative;
+	top: 200px;
+	font-size: 28px;
+	line-height: 31px;
+	font-style: bolder;
+	text-align: center;
+}
+.p3-2 {
+	position: relative;
+	top: 220px;
+	font-size: 20px;
+	line-height: 26px;
+	font-style: bolder;
+	text-align: center;
+}
+table {
+	position: relative;
+	top: 240px;
+	font-size: 20px;
+	line-height: 26px;
+	font-style: center;
+	margin: auto;
+	text-align: center;
+	border: 3px solid black;
+	text-decoration: underline;
+}
+tr, td {
+	border: 1px solid black;
+}
+td {
+	padding: 60px;
+	font-style: italic;
+}
 
 .footer{
 	position: relative;

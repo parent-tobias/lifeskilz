@@ -256,14 +256,27 @@ as i could*/
 .followMe {
 	position: absolute;
 	top: 20px;
-	left: 550px;
+	left: 600px;
 	font-size: 16px;
 	color: white;
 }
 #socailMedia {
 	text-decoration: underline;
 }
-ul {
+.followMe ul {
 	list-style-type: none;
+	padding-left: 0px;
 }
-	
+.legalStuff {
+	position: absolute;
+	top: 20px;
+	left: 1000px;
+	font-size: 16px;
+	color: white;
+	line-height: 20px;
+}
+#legalInfo {
+	text-decoration: underline;
+}
+
+

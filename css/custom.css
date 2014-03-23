@@ -100,7 +100,13 @@ as i could*/
 	color: black;
 	/*border: 3px solid white;*/
 }
-
+.commandHeader{
+	margin: .5em;
+	padding-top: 14px;
+	text-align: center;
+	font-size: 325%;
+	color: black;
+}
 #moreme {
 	position: relative;
 	top: 230px;
@@ -169,9 +175,63 @@ as i could*/
 	line-height: 40px;
 	font-style: bolder;
 }
-
-
-
+.p2-6 {
+	position: relative;
+	top: 250px;
+	font-size: 28px;
+	line-height: 31px;
+	font-style: bolder;
+}
+.p3-1 {
+	position: relative;
+	top: 200px;
+	font-size: 28px;
+	line-height: 31px;
+	font-style: bolder;
+	text-align: center;
+}
+.p3-2 {
+	position: relative;
+	top: 220px;
+	font-size: 20px;
+	line-height: 26px;
+	font-style: bolder;
+	text-align: center;
+}
+/************************COMMAND PRINCIPLES**********************************/
+#command-principles {
+	position: relative;
+	top: 260px;
+	background-image: url('../img/pinkPattern.png');
+}
+#command-principles ul {
+  border: 1px solid black;
+  padding: 10px;
+  list-style-type: none;
+  overflow: hidden;
+    _overflow: visible;
+    _overflow-x: hidden;
+    _height: 0;
+}
+#command-principles ul li {
+  float: left;
+  width: 48%;
+  margin: 1%;
+  padding: 50px;
+  background-color: #535353;
+  font-size: 20px;
+  text-decoration: underline;
+  font-style: italic;
+  text-align: center;
+  border: 1px solid black;
+}
+#command-principles .command-principle-detail {
+  display: none;
+}
+.commandLink {
+	color: black;
+}
+/*************************************FOOTER******************************************/
 .footer{
 	position: relative;
 	top: 300px;
@@ -180,3 +240,43 @@ as i could*/
 	height: 400px;
 	width: auto;
 }
+.contact {
+	position: absolute;
+	top: 20px;
+	left: 100px;
+	font-size: 16px;
+	color: white;
+}
+.contact ul {
+	list-style-type: none;
+}
+#contactMe {
+	text-decoration: underline;
+}
+.followMe {
+	position: absolute;
+	top: 20px;
+	left: 600px;
+	font-size: 16px;
+	color: white;
+}
+#socailMedia {
+	text-decoration: underline;
+}
+.followMe ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+.legalStuff {
+	position: absolute;
+	top: 20px;
+	left: 1000px;
+	font-size: 16px;
+	color: white;
+	line-height: 
+}
+#legalInfo {
+	text-decoration: underline;
+}
+
+

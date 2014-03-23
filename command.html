@@ -191,7 +191,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/holder/2.3.1/holder.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
@@ -218,7 +218,9 @@
                allFields.val( "" ).removeClass( "ui-state-error" );
             },
             "Next": function() {  
-              $(myDialog.data("next")).trigger("click");
+              $(myDialog.data("next")).trigger("click");s).next())
+
+          }
             }
           }
         });
@@ -243,9 +245,7 @@
             
             // In this case, we're somewhere in the midst of the list of LI's
             myDialog.data("prev", $(this).prev() );
-            myDialog.data("next", $(this).next())
-
-          }
+            myDialog.data("next", $(thi
           
           // Now that we've set the previous and next button data points, we can fill the dialog with the
           //  proper HTML element and display it.

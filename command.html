@@ -168,5 +168,62 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/holder/2.3.1/holder.min.js"></script>
+        <script type="text/javascript">
+    $(function(){
+      // First, create a reference to the empty dialog element that we'll use throughout.
+       var myDialog = $("#command-principles-dialog");
+      
+      // Set the dialog options for that element. Don't auto-open, I want it to be a modal dialog,
+      //  and I want it to have previous and next buttons that do certain things on click.
+      myDialog.dialog({
+          autoOpen: false,
+          height: '300',
+          width: '45%',
+          modal: true,
+          buttons: {
+            "Prev": function(){
+              $(myDialog.data("prev")).trigger("click");
+            },
+            "X": function() {
+               $( this ).dialog( "close" );
+               allFields.val( "" ).removeClass( "ui-state-error" );
+            },
+            "Next": function() {  
+              $(myDialog.data("next")).trigger("click");
+            }
+          }
+        });
+        
+        // Now, I also want each LI to listen for a click, and to pop the dialog element up, properly populated.
+        $("#command-principles-list").on("click", "li", function(){
+          // First, we need to get the relevant LI that has been clicked, and get its data-target attribute
+          var myCPDetail = $("#"+ $(this).find("a").data("target") );
+          // Now, if this is the last LI, we want 'Next' to point back to the FIRST element...
+          if ($(this).is($(this).parent().find("li:last-child") ) ) {
+
+            myDialog.data("prev", $(this).prev() );
+            myDialog.data("next", $(this).parent().find("li:first-child") );
+
+          } else if ($(this).is( $(this).parent().find("li:first-child") ) ) {
+
+            // Next, if this is the first LI, we want 'Prev' to point to the LAST element...
+            myDialog.data("prev", $(this).parent().find("li:last-child" ) );
+            myDialog.data("next", $(this).next() );
+
+          } else {
+            
+            // In this case, we're somewhere in the midst of the list of LI's
+            myDialog.data("prev", $(this).prev() );
+            myDialog.data("next", $(this).next())
+
+          }
+          
+          // Now that we've set the previous and next button data points, we can fill the dialog with the
+          //  proper HTML element and display it.
+          myDialog.html(myCPDetail.html()  ).dialog("open");
+
+      });
+    });
+  </script>
   </body>
 </html>

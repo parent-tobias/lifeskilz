@@ -202,7 +202,7 @@ as i could*/
 #command-principles {
 	position: relative;
 	top: 260px;
-	background-color: #be203a;
+	background-image: url('../img/pinkPattern.png');
 }
 #command-principles ul {
   border: 1px solid black;

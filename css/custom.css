@@ -138,6 +138,40 @@ as i could*/
 	line-height: 31px;
 
 }
+.p2-2 {
+	position: relative;
+	top: 210px;
+	font-size: 28px;
+	line-height: 31px;
+	color: black;
+	font-style: bolder;
+}
+
+.p2-3 {
+	position: relative;
+	top: 220px;
+	font-size: 28px;
+	line-height: 31px;
+	font-style: bolder;
+}
+.p2-4 {
+	position: relative;
+	top: 230px;
+	font-size: 28px;
+	line-height: 31px;
+	color: black;
+	font-style: bolder;
+}
+.p2-5 {
+	position: relative;
+	top: 240px;
+	font-size: 28px;
+	line-height: 40px;
+	font-style: bolder;
+}
+
+
+
 .footer{
 	position: relative;
 	top: 300px;

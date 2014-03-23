@@ -198,24 +198,33 @@ as i could*/
 	font-style: bolder;
 	text-align: center;
 }
-table {
+/************************COMMAND PRINCIPLES**********************************/
+#command-principles {
 	position: relative;
-	top: 240px;
-	font-size: 20px;
-	line-height: 26px;
-	font-style: center;
-	margin: auto;
-	text-align: center;
-	border: 3px solid black;
-	text-decoration: underline;
+	top: 260px;
 }
-tr, td {
-	border: 1px solid black;
+#command-principles ul {
+  border: 1px solid black;
+  padding: 10px;
+  list-style-type: none;
+  overflow: hidden;
+    _overflow: visible;
+    _overflow-x: hidden;
+    _height: 0;
 }
-td {
-	padding: 60px;
-	font-style: italic;
+#command-principles ul li {
+  float: left;
+  width: 48%;
+  margin: 5px;
+  padding: 50px;
+  font-size: 20px;
+  text-decoration: underline;
+  font-style: italic;
+  text-align: center;
+  border: 1px solid black;
 }
+#command-principles .command-principle-detail {
+  display: none;
 
 .footer{
 	position: relative;

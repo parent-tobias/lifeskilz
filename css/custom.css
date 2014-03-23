@@ -39,7 +39,7 @@ as i could*/
 
 /*The gray portion at the top*/
 .navbar-wrapper{
-	background-color: #535353;
+	background-color: black;
 	margin: 0px;
 	height: 50px;
 }
@@ -92,7 +92,7 @@ as i could*/
 	
 }
 
-#aboutEdMack{
+.header{
 	margin: .5em;
 	padding-top: 33px;
 	text-align: center;
@@ -108,7 +108,7 @@ as i could*/
 	color: black;
 	text-decoration: underline;
 }
-
+/************************PARAGRAPHS**********************************/
 .p1-1 {
 	position: relative;
 	top: 250px;
@@ -131,11 +131,18 @@ as i could*/
 	font-size: 25px;
 	line-height: 31px;
 }
+.p2-1  {
+	position: relative;
+	top: 200px;
+	font-size: 25px;
+	line-height: 31px;
+
+}
 .footer{
 	position: relative;
 	top: 300px;
 	margin-top: 100px;
-	background-color: #535353;
+	background-color: black;
 	height: 400px;
 	width: auto;
 }
